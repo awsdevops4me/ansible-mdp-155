@@ -19,7 +19,7 @@
   tasks:
   - name: Ensure directory created
     file:
-      path: /home/centos/g2_dir
+      path: /home/centos/group2_dir
       state: directory 
 
   - name: Ensure directory created
