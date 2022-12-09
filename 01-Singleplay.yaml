@@ -1,0 +1,9 @@
+---
+- name: update n1 server
+  hosts: n1
+
+  tasks:
+  - name: Ensure directory created
+    file:
+    dest: /home/centos/n1_dir
+    state: directory
