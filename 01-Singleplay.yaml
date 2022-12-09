@@ -5,5 +5,5 @@
   tasks:
   - name: Ensure directory created
     file:
-    dest: /home/centos/n1_dir
+    path: /home/centos/n1_dir
     state: directory
