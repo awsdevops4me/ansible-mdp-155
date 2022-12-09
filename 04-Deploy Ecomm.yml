@@ -1,6 +1,6 @@
 ---
-- name: Deploy Ecomm App  on n2 server
-  hosts: n2
+- name: Deploy Ecomm App  on n1 server
+  hosts: n1
   become: yes
 
   tasks:
