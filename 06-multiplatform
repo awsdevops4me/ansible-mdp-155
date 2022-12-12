@@ -1,5 +1,5 @@
 ---
-- name: Set up web server on all servers
+- name: Set up webserver on all servers
   hosts: all
   become: yes
 
