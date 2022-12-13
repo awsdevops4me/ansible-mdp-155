@@ -1,0 +1,14 @@
+---
+- name: Deploy info page   on all servers
+  hosts: all
+  become: yes
+  vars:
+     user_name:rajesh
+
+  tasks:
+  - name: Copy Dynamic page
+    template:
+      src: info.j2
+      dest: /var/www/html/dynamic.html
+       
+...
