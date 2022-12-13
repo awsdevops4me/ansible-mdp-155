@@ -12,8 +12,8 @@
       dest: /etc/httpd/conf/httpd.conf
 
     - name: Restart HTTPD
-    service:
-      name: httpd
-      state: restarted   
+      service:
+        name: HTTPD
+        state: restarted   
 
 ...
