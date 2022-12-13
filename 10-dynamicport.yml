@@ -13,7 +13,6 @@
 
     - name: Restart HTTPD
       service:
-        name: HTTPD
-        state: restarted   
-
+       name: httpd
+       state: restarted   
 ...
