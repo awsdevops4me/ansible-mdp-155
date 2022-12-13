@@ -12,7 +12,7 @@
       dest: /etc/httpd/conf/httpd.conf
 
   - name: Restart HTTPD
-      service:
+    service:
        name: httpd
        state: restarted   
 ...
