@@ -1,6 +1,6 @@
 ---
 - name: Deploy info page   on all server
-  hosts: n1
+  hosts: all
   become: yes
 
   tasks:
