@@ -9,7 +9,7 @@
   - name: Copy Dynamic Config
     template:
       src: httpd.j2
-      dest: /etc/httpd/conf/httpd.html
+      dest: /etc/httpd/conf/info.html
 
   - name: Restart HTTPD
     service:
