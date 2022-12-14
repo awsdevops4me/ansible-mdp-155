@@ -1,6 +1,6 @@
 ---
 - name: update HTTPD on n1 server
-  hosts: n1
+  hosts: n3
   become: yes
 
   tasks:
